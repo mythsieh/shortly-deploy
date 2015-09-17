@@ -7,6 +7,7 @@
   "license": "Proprietary",
   "private": true,
   "scripts": {
+    "postinstall": "npm install -g grunt-cli && grunt build",
     "start": "node index.js"
   },
   "dependencies": {
